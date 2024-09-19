@@ -1,0 +1,152 @@
+#root {
+  /* max-width: 1280px; */
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  padding: 0px;
+  text-align: center;
+}
+
+body {
+  width: 100%;
+  background: #212121;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fafafa;
+}
+
+.divHome {
+  display: block;
+  margin-top: 40px;
+}
+
+.imgPokeball {
+  height: 200px;
+}
+
+h1 {
+  color: #fcce4b;
+}
+
+.buttonFind {
+  background: #f66d6d;
+  font-weight: 600;
+}
+
+.customLink {
+  color: #fafafa;
+}
+
+.customLink:hover {
+  color: #fcce4b;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: flex-start; */
+  align-items: center;
+  height: 150px;
+  background: #f66d6d;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  align-content: center;
+  justify-content: center;
+  color: #fafafa;
+  font-size: 20px;
+}
+
+.divListContainer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.divListPokemones {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.divItemPokemon {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  gap: 6px;
+  font-size: 16px;
+}
+
+.divButtons {
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.buttonGoBack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  font-weight: 600;
+}
+
+.buttonSaveFav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  color: #212121;
+  background: #fcce4b;
+  gap: 6px;
+  padding: 0px;
+  font-weight: 600;
+}
+
+.buttonSaveFavNone {
+  display: none;
+}
+
+.buttonQuitFav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  color: #f66d6d;
+  background: #fafafa;
+  gap: 6px;
+  padding: 0px;
+  font-weight: 600;
+}
+
+.divPokemon {
+  display: block;
+}
+
+.iconHeart {
+  height: 20px;
+  fill: #f66e6e;
+}
+
+.imgMini {
+  height: 100px;
+}
