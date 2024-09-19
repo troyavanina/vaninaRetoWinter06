@@ -3,7 +3,7 @@ function Header() {
   return (
     <header>
       <nav>
-        <Link to={"/"} className="customLink">
+        <Link to={"/home"} className="customLink">
           Home{" "}
         </Link>
         {/* <Link to={"/somos"}>Somos </Link> */}

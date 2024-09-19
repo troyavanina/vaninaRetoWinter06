@@ -18,6 +18,7 @@ function App() {
           <Layout>
             <Routes>
               <Route path="/" element={<Home />}></Route>
+              <Route path="/home" element={<Home />}></Route>
               <Route path="/pokemones" element={<Pokemones />}></Route>
               <Route path="/pokemones/*" element={<Pokemon />}></Route>
               <Route path="/contacto" element={<Contacto />}></Route>
